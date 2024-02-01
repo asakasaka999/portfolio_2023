@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"html.autoClosingTags": false,
+		"html.autoCreateQuotes": false,
+		"editor.wordWrap": "on",
+		"editor.autoClosingQuotes": "never",
+		"emmet.showAbbreviationSuggestions": false,
+		"emmet.showExpandedAbbreviation": "never",
+		"css.completion.completePropertyWithSemicolon": false,
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.suggest.selectionMode": "never",
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.inlineSuggest.enabled": false,
+		"editor.quickSuggestions": {
+			"comments": "off",
+			"strings": "off",
+			"other": "off"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-ceintl.vscode-language-pack-ja"
+		]
+	}
+}

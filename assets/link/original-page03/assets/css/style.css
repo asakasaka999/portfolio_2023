@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #333;
+}
+
+.inner{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background: url("../img/hero.jpg") top/ cover no-repeat;
+    color: #fff;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+    backdrop-filter: blur(30px);
+}
+
+section{
+    width: 100%;
+    padding: 80px 0;
+}
+section h2{
+    margin-bottom: 1em;
+}
+section p{
+    line-height: 1.8;
+}
+section#first{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: url("../img/section1-sub.jpg") left center no-repeat;
+    background-size: 400px;
+}
+
+section#first .inner{
+    width: 600px;
+    margin-right: 0;
+    margin-left: auto;
+}
+section#first .inner img{
+    width: 400px;
+    height: 250px;
+}
+
+.activity-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.activity-flex div{
+    width: 500px;
+    height: 600px;
+}
+.left-activity img,
+.right-activity img{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+}
+section#second .inner img
+section#first p{
+    margin: 0 auto;
+}
+
+section#second .inner,
+section#third .inner{
+    text-align: center;
+}
+section#second p,
+section#third p{
+    margin-bottom: 3em;
+}
+section#second{
+    background: #f4f4f4;
+    /* padding-bottom: 0; */
+}
+section#second .inner{
+    text-align: center;
+}
+section#third .inner img{
+    width: 800px;
+    height: 450px;
+}
+footer{
+    background: #eee;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/*
+media screen
+============================================*/
+@media screen and (max-width: 1000px){
+    .inner img{
+        text-align: center;
+    }
+    section p{
+        padding: 5px 10px;
+    }
+    section#first{
+        background: none;
+    }
+    section#first .inner{
+        margin: 0 auto;
+    }
+    section#first p{
+        margin: 1em 0;
+    }
+}

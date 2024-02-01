@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>高田馬場住宅展示場</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8a7fea4d4.js" crossorigin="anonymous"></script>
+    <!--自作のJS-->
+    <script src="js/original.js"></script>
+</head>
+
+<body id="top">
+    <nav>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#top">TOP</a></li>
+                <li><a href="#house">HOUSE</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#access">ACCESS</a></li>
+            </ul>
+        </div>
+        <div class="nav-link">
+            <ul>
+                <li><a href="">資料請求</a></li>
+                <li><a href="">見学予約</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-title">
+            <p>高田馬場</p>
+            <p>住宅展示場</p>
+        </div>
+        <div class="header-catchcopy">
+            <p>子供と共に育つ家を<br>
+                お探しではありませんか</p>
+        </div>
+        <div class="header-img"></div>
+        <div class="scroll-down is-active is-inview" scroll-down="home" data-controller="opinview" op-inview="0, 0.7"
+            op-inview-deactivate="">
+            <div class="scroll-down__text"><span>scroll</span></div>
+            <div class="scroll-down__line"></div>
+        </div>
+    </header>
+    <main>
+        <!-- <div class="main-bg">
+            <video src="images/sample-bg.mp4" muted autoplay loop></video>
+        </div> -->
+        <section class="about-wrap">
+            <div class="about">
+                <div class="about-text">
+                    2023年8月10日に新たにオープンした高田馬場展示場は
+                    都心に近い中大手メーカーの最新モデルハウスが並んでいます。
+                </div>
+                <div class="about-detail">
+                    <ul>
+                        <li>
+                            <div class="about-list">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>住所</span>
+                            </div>
+                            東京都新宿区高田馬場2-11-10
+                        </li>
+                        <li>
+                            <div class="about-list">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>電話番号</span>
+                            </div>0120-00-5586
+                        </li>
+                        <li>
+                            <div class="about-list">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>開場時間</span>
+                            </div>9:00～18:00
+                        </li>
+                        <li>
+                            <div class="about-list">
+                                <i class="fa-solid fa-mug-hot"></i>
+                                <span>定休日</span>
+                            </div>毎週水
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="heading">
+                <h2>Support</h2>
+                <p>サポート</p>
+            </div>
+            <div class="support-wrap">
+                <figure>
+                    <h3>あなたにあったモデルハウスを紹介します</h3>
+                    <img src="images/support01.jpg" alt="">
+                    <figcaption>訪問の際にスタッフに条件を話すとその条件に見合ったモデルハウスをご紹介いたします。</figcaption>
+                </figure>
+                <figure>
+                    <h3>優秀なスタッフがあなたの要望をサポート</h3>
+                    <img src="images/support02.jpg" alt="">
+                    <figcaption>常駐スタッフがご相談に乗るとともにお客様が求める家のイメージにあうものをご提案いたします。</figcaption>
+                </figure>
+                <figure>
+                    <h3>直接の相談や電話相談も充実</h3>
+                    <img src="images/support03.jpg" alt="">
+                    <figcaption>朝8時から夜の8時までの間、オンライン・電話相談も可能です。</figcaption>
+                </figure>
+        </section>
+
+        <section id="house">
+            <div class="heading">
+                <h2>MODELHOUSE</h2>
+                <p>モデルハウス一覧</p>
+            </div>
+
+            <section id="house" class="house-wrap">
+                <div class="house-map">
+                    <img src="images/house-map.svg" alt="">
+                </div>
+                <div class="house-contents-wrap">
+                    <div class="house-contents">
+                        <span>01</span>
+                        <h3>セキスイハイム</h3>
+                        <p>スマートパワーステーションFR</p>
+                        <img src="images/house01.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>02</span>
+                        <h3>アイエ工務店</h3>
+                        <p>N-ees</p>
+                        <img src="images/house02.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>03</span>
+                        <h3>一条工務店</h3>
+                        <p>i-smart</p>
+                        <img src="images/house03.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>04</span>
+                        <h3>建築工房 檜家</h3>
+                        <p>木曾ひのき・むくり屋根の家</p>
+                        <img src="images/house04.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>05</span>
+                        <h3>ヤマウラ</h3>
+                        <p>クレバリーホーム CXシリーズ</p>
+                        <img src="images/house05.png" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>06</span>
+                        <h3>フォレストコーポレーション</h3>
+                        <p>工房信州の家</p>
+                        <img src="images/house06.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>07</span>
+                        <h3>桧家住宅</h3>
+                        <p>スマート・ワン</p>
+                        <img src="images/house07.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>08</span>
+                        <h3>一条工務店</h3>
+                        <p>GRAND SMART</p>
+                        <img src="images/house08.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>09</span>
+                        <h3>住友林業</h3>
+                        <p>THE Forest BF</p>
+                        <img src="images/house09.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>10</span>
+                        <h3>旭化成ホームズ(HEBEL HAUS)</h3>
+                        <p>FREX2</p>
+                        <img src="images/house10.jpg" alt="">
+                    </div>
+                    <div class="house-contents">
+                        <span>11</span>
+                        <h3>三井ホーム</h3>
+                        <p>IZM(イズム)</p>
+                        <img src="images/house11.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="news">
+            <div class="heading">
+                <h2>NEWS</h2>
+                <p>最新情報</p>
+            </div>
+            <section class="news-wrap">
+                <div class="news-article-wrap">
+                    <ul class="news-article-list">
+                        <li>
+                            <a href="" class="link-nothing">
+                                <div class="news-article-detail">
+                                    <p class="news-article-date">2023.8.10</p>
+                                    <span class="news-article-category article-other">お知らせ</span>
+                                </div>
+                                <div class="news-article-content">
+                                    <p>高田馬場住宅展示場OPEN</p>
+                                    <div class="news-article-link-arrow">
+                                        <i class="fa-solid fa-right-long"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="link-nothing">
+                                <div class="news-article-detail">
+                                    <p class="news-article-date">2023.8.10</p>
+                                    <span class="news-article-category article-event">イベント</span>
+                                </div>
+                                <div class="news-article-content">
+                                    <p>OPENセレモニー開催</p>
+                                    <div class="news-article-link-arrow">
+                                        <i class="fa-solid fa-right-long"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="link-nothing">
+                                <div class="news-article-detail">
+                                    <p class="news-article-date">2023.8.10</p>
+                                    <span class="news-article-category article-other">お知らせ</span>
+                                </div>
+                                <div class="news-article-content">
+                                    <p>新型コロナウイルス感染対策について</p>
+                                    <div class="news-article-link-arrow">
+                                        <i class="fa-solid fa-right-long"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="link-nothing">
+                                <div class="news-article-detail">
+                                    <p class="news-article-date">2023.8.25</p>
+                                    <span class="news-article-category article-event">イベント</span>
+                                </div>
+                                <div class="news-article-content">
+                                    <p>高田馬場住宅展示場に移動水族館開催</p>
+                                    <div class="news-article-link-arrow">
+                                        <i class="fa-solid fa-right-long"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section id="access">
+            <div class="heading">
+                <h2>ACCESS</h2>
+                <p>交通アクセス</p>
+            </div>
+            <section class="access-wrap">
+                <div class="access-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.509602251468!2d139.7054157152598!3d35.71368368018672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d3e982754b9%3A0x2e95795e898cc083!2z5p2x5Lqs44OH44K244Kk44Oz44OG44Kv44OO44Ot44K444O844K744Oz44K_44O85bCC6ZaA5a2m5qCh!5e0!3m2!1sja!2sjp!4v1687244385004!5m2!1sja!2sjp"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="access-details">
+                    <p>住所 : 〒169-0075 東京都新宿区高田馬場2-11-10</p>
+                    <h3>電車の場合</h3>
+                    <p>山手線 　　高田馬場駅から徒歩5分</p>
+                    <p>西武新宿線 高田馬場駅から徒歩5分</p>
+                    <h3>駐車台数</h3>
+                    <p>61台</p>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <footer>
+        <div class="sub-heading">
+            <h3>HOUSE MAKER</h3>
+            <p>ハウスメーカー一覧</p>
+        </div>
+        <div class="footer-list-maker">
+            <ul>
+                <li><a href="">
+                        <img src="images/maker-logo/sekisui-logo.png" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/hinokiya.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/forest-logo.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/hinokiya02-logo.svg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/sumitomo-logo.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/aie-logo.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/asahikasei-logo.png" alt="">
+                        ></a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/itijou.jpg" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/yamaura-logo.png" alt="">
+                    </a></li>
+                <li><a href="">
+                        <img src="images/maker-logo/mitui-logo.png" alt="">
+                    </a></li>
+            </ul>
+        </div>
+        <div class="footer-about"></div>
+        <div class="footer-sns-wrap">
+            <div class="footer-sns">
+                <ul>
+                    <li class="sns-twitter"><a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                    <li class="sns-instagram"><a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=""></div>
+        <small>
+            <address>&copy; Takadanobaba Holdings Corp</address>
+        </small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* リセットCSS 読み込み */
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+/************************************************************
+*/
+/*	   　General
+*/
+/***********************************************************/
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* Google Fonts 読み込み */
+    font-family: 'Shippori Mincho', serif;
+    color: #212121;
+}
+img{
+    max-width: 100%;
+}
+.inner{
+    width: 1000px;
+    margin: auto;
+}
+figure{
+    padding-left: 10px;
+}
+figure figcaption{
+    padding-left: 20px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav div{
+    line-height: 40px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+ul li:nth-last-child(){
+    margin-right: 0;
+}
+ul li a{
+    color: black;
+}
+.ticket-area a{
+    color: black;
+    background:rgb(1, 225, 255);
+    padding: 8px 20px;
+}
+.ticket-area a:hover{
+    color: rgb(1, 225, 255);
+    background: black;
+    transition: 0.5s;
+}
+/******************************************
+/*	header
+/*****************************************/
+header{
+    background: url("../img/top.jpg")
+    bottom/cover no-repeat;
+    color: #fff;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header h1,
+header .catch-copy{
+    text-align: center;
+    /* margin-right: 20%; */
+    margin-left: 20%; 
+}
+
+/******************************************
+/*	 main
+/*****************************************/
+section{
+    width: 100%;
+    padding: 150px 0;
+}   
+section h2{
+    margin-bottom: 1em;
+}
+section h2 span{
+    font-size: 1rem;
+}
+section p{
+    line-height: 1.8;
+}
+
+/*** section#first ***/
+section#first{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+section#first .inner{
+    width: 500px;
+    margin: auto;
+}
+section#first h2{
+    font-size: 3em;
+}
+section#first h2 span{
+    display: block;
+}
+section#first p{
+    margin: 1em 0;
+}
+
+/*** section#second ***/
+section#second h2,
+section#third h2{
+    margin-left: 10px;
+}
+section#second h2 span,
+section#third h2 span{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5em 0;
+    border-bottom: 1px solid;
+}
+section#second{
+    background: #212121;
+    color: #fff;
+    padding: 0;
+    display: flex;
+}
+section#second .text-area{
+    width: 500px;
+    margin: auto;
+    padding:0 10px;
+}
+.text-area　a{
+    color: white;
+}
+section#second .image-area{
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+section#second .image-area img{
+    filter: grayscale(100%);
+}
+section#second .image-area img:hover{
+    filter: grayscale(0%);
+}
+
+
+section#second .image-area img:nth-of-type(1){
+    width: 100%;
+}
+section#second .image-area img:nth-of-type(n + 2){
+    width: 50%;
+}
+
+/*** section#third ***/
+section#third .image-area figure img{
+    width: 400px;
+    height: 250px;
+    margin-top: 30px;
+}
+section#third .image-area{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section#third .image-area img:nth-of-type(n + 3){
+    margin-top: 60px;
+}
+
+/******************************************
+/*	footer
+/*****************************************/
+footer{
+    background: #212121;
+    color: #fff;
+    padding: 20px 0;
+}

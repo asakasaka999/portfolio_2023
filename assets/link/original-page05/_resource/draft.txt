@@ -1,0 +1,61 @@
+----------【HTML】----------
+
+<!----- CSS ----->
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&amp;display=swap">
+<!-- style.css -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!----- JS ----->
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/b68fb17dce.js" crossorigin="anonymous"></script>
+
+----------
+
+ロゴ
+<img src="https://placehold.jp/3d4070/ffffff/250x50.png?text=%E3%83%AD%E3%82%B4" alt="ロゴ">
+
+----------
+
+メインビジュアル
+<img src="https://placehold.jp/3d4070/ffffff/500x500.png?text=%E3%83%A1%E3%82%A4%E3%83%B3%E3%80%80%E3%80%80%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB" alt="メインビジュアル">
+
+Twitterでシェアする
+Facebookでシェアする
+
+----------
+
+XXXとは
+この商品／サービスについての説明文。この商品／サービスについての説明文。
+この商品／サービスについての説明文。この商品／サービスについての説明文。この商品／サービスについての説明文。この商品／サービスについての説明文。
+この商品／サービスについての説明文。
+
+----------
+
+ロゴマーク
+<img class="logo-mark" src="https://placehold.jp/3d4070/ffffff/150x150.png?text=%E3%83%AD%E3%82%B4%E3%83%9E%E3%83%BC%E3%82%AF" alt="ロゴマーク">
+
+----------
+
+商品名／サービス名
+この商品／サービスを促進する文。この商品／サービスを促進する文。
+この商品／サービスを促進する文。
+
+<img src="https://placehold.jp/3d4070/ffffff/250x250.png?text=%E5%95%86%E5%93%81" alt="商品">
+<img src="https://placehold.jp/3d4070/ffffff/250x250.png?text=%E5%95%86%E5%93%81" alt="商品">
+<img src="https://placehold.jp/3d4070/ffffff/250x250.png?text=%E5%95%86%E5%93%81" alt="商品">
+
+----------
+
+&copy; ページ名 All rights reserved.
+
+
+
+----------【CSS】----------
+
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+----------
+
+font-family: "Zen Maru Gothic", sans-serif;

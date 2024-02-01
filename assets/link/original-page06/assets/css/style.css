@@ -1,0 +1,186 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    line-height: 1;
+    color: #fff;
+    font-family: "Noto Serif JP", sans-serif;
+    font-size: 1.6em;
+}
+/*
+header
+------------------------------------*/
+/*----- header ------*/
+header{
+    width: 100%;
+    height: 100px;
+    background: #bcd079;
+    padding: 1rem 0;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 3em;
+    transform: translateY(-50%);
+    text-shadow: 0.1rem 0.1rem 0.4rem #212121;
+    z-index: 10;
+}
+header img{
+    position: absolute;
+    top: 50%;
+    left: 8em;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+header .logo{
+    width: 10rem;
+}
+
+.header-contact{
+    position: absolute;
+    top: 50%;
+    right: 3em;
+    transform: translateY(-50%);
+}
+.sns{
+    margin-bottom: 15px;
+}
+.sns ul{
+    display: flex;
+}
+.sns ul li{
+    list-style-type: none;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+.sns ul li a{
+    color: #fff;
+}
+
+/*----- section ------*/
+section{
+    padding: 10rem 0;
+    text-align: center;
+    background: #212121;
+}
+section h2, section p{
+    text-shadow: 0.1rem 0.1rem 0.4rem #212121;
+}
+section h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+section h2 .en{
+    display: block;
+    font-size: 0.6em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+section p{
+    line-height: 3;
+}
+/*----- button ------*/
+.btn_detail{
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 14em;
+    margin: 6em auto 0;
+    padding: 1em 0;
+    border: 0.1rem solid #fff;
+    text-decoration: none;
+    letter-spacing: 0.2em; /* 文字の間隔 */
+    transition: 0.3s all;
+}
+.btn_detail:hover{
+    background: #fff;
+    color: #e6b422; 
+}
+
+/*----- #first-view ------*/
+#first-view{
+    height: 90vh;
+    background: url(../img/top.jpg) center/cover no-repeat;
+    position: relative;
+}
+#first-view h2{
+    position: absolute;
+    top: 4em;
+    left: 10%;
+    font-family: "Shippori Mincho" ,serif;
+    color: #212121;
+    font-size: 4rem;
+    text-shadow: none;
+}
+nav{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 1.5em;
+    margin-right: 3em;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    background: url(../img/background-a.png) center/contain no-repeat;
+}
+nav ul li a:hover{
+    color: #e6b422;
+}
+
+/*----- #about ------*/
+#about{
+    background: url(../img/background-come.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-blend-mode: soft-light;
+    background-color: #444;
+}
+#about .btn_detail{
+    margin-top: 10rem;
+}
+/*----- #products ------*/
+#products{
+    width: 50%;
+    position: relative;
+    background: url(../img/kome-logo.png) center/40% no-repeat #bcd079;
+}
+#products::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background: url(../img/okome-right.jpg) center/cover no-repeat
+}
+/*----- #shop-event ------*/
+#shop-event{
+    background: url(../img/kome-about.jpg) center/cover no-repeat;
+}
+#shop-event .btn_detail{
+    margin-top: 30rem;
+}
+
+/*----- footer ------*/
+footer{
+    background: #bcd079;
+    padding: 2rem 0;
+    text-align: center;
+}
